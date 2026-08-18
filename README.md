@@ -28,7 +28,8 @@ fiap-python-fundamentals/
 ├── fundamentos/
 │   ├── variaveis/
 │   ├── condicionais/
-│   └── repeticoes/
+│   ├── repeticoes/
+│   └── formatacao_print/
 ├── projetos/
 ├── .gitignore
 └── README.md

@@ -78,7 +78,7 @@ py caminho/do/exercicio.py
 
 ## Autor
 
-Desenvolvido por [Paulo Lysakovski](https://github.com/plysakovski) durante a graduação em Inteligência Artificial na FIAP.
+Desenvolvido por [Pedro Lysakovski](https://github.com/plysakovski) durante a graduação em Inteligência Artificial na FIAP.
 
 ## Observação
 

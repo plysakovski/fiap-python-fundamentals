@@ -1,85 +1,114 @@
-# FIAP Python Fundamentals
+# Python Fundamentals | FIAP
 
-Repositório dedicado aos exercícios e projetos desenvolvidos durante meus estudos de Python na graduação em Inteligência Artificial da FIAP.
+[![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![FIAP](https://img.shields.io/badge/FIAP-Inteligência%20Artificial-ED145B?style=for-the-badge)](https://www.fiap.com.br/)
+[![Status](https://img.shields.io/badge/status-em%20evolução-2EA44F?style=for-the-badge)](#roadmap-de-aprendizado)
 
-## Sobre o repositório
+Repositório acadêmico que reúne exercícios, práticas e, futuramente, projetos desenvolvidos durante minha graduação em **Inteligência Artificial na FIAP**.
 
-Este espaço registra minha evolução na linguagem Python, desde os conceitos fundamentais até a aplicação do conhecimento em projetos relacionados à Inteligência Artificial.
+O objetivo é documentar minha evolução em Python de forma clara e organizada, consolidando fundamentos de programação que servirão de base para automação, análise de dados e soluções de Inteligência Artificial.
 
-Os exercícios estão organizados por tema para facilitar a consulta e acompanhar o progresso ao longo do curso.
+## Sobre este repositório
 
-## Conteúdos
+Mais do que uma coleção de códigos, este repositório funciona como um registro contínuo de aprendizado. Cada exercício representa a aplicação prática de um conceito estudado em aula, com foco no desenvolvimento de raciocínio lógico, resolução de problemas e escrita de código legível.
 
-- Variáveis e tipos de dados
-- Entrada e saída de dados
-- Operadores
-- Estruturas condicionais
-- Estruturas de repetição
-- Listas, tuplas e dicionários
-- Funções
-- Projetos práticos
+Os conteúdos estão divididos em duas áreas:
 
-> O conteúdo será atualizado conforme o avanço das aulas.
+- **`fundamentos/`** — exercícios curtos, organizados por tema, para praticar os principais conceitos da linguagem Python;
+- **`projetos/`** — espaço destinado a aplicações mais completas, que integram diferentes conhecimentos e demonstram a evolução do aprendizado na prática. Cada projeto poderá ter sua própria documentação.
 
-## Estrutura
+> Neste momento, a publicação está concentrada nos exercícios da pasta `fundamentos/`. A área de projetos será disponibilizada gradualmente, conforme cada aplicação estiver pronta para apresentação.
+
+## Conteúdos disponíveis
+
+| Tema | Conceitos praticados | Exercícios |
+| --- | --- | ---: |
+| [Variáveis e entrada de dados](fundamentos/variaveis/) | Tipos numéricos, `input`, conversão de tipos, cálculos e saída de dados | 3 |
+| [Formatação de saída](fundamentos/formatacao_print/) | `print`, f-strings, `format` e formatação numérica | 3 |
+| [Estruturas condicionais](fundamentos/condicionais/) | Operadores relacionais e lógicos, `if`, `elif`, `else` e decisões encadeadas | 9 |
+| [Estruturas de repetição](fundamentos/repeticoes/) | Laços `for` e `while`, validação, contadores, acumuladores, listas e dicionários | 7 |
+
+Entre os problemas resolvidos estão cálculo de média e velocidade, validação de notas, aplicação de descontos, classificação por faixas, tabuada, votação e controle de repetição.
+
+## Estrutura do repositório
 
 ```text
 fiap-python-fundamentals/
-├── fundamentos/
-│   ├── variaveis/
-│   ├── condicionais/
-│   ├── repeticoes/
-│   └── formatacao_print/
-├── projetos/
-├── .gitignore
-└── README.md
+|-- fundamentos/
+|   |-- variaveis/
+|   |-- formatacao_print/
+|   |-- condicionais/
+|   `-- repeticoes/
+|-- projetos/              # aplicações integradas e estudos futuros
+|-- .gitignore
+`-- README.md
 ```
 
-## Como executar os exercícios
+## Como executar
 
 ### Pré-requisitos
 
-- [Python 3](https://www.python.org/downloads/) instalado
-- Um editor de código, como o [Visual Studio Code](https://code.visualstudio.com/)
+- [Python 3](https://www.python.org/downloads/) instalado;
+- Git instalado, caso queira clonar o repositório;
+- terminal ou editor de código de sua preferência.
 
-### Execução
+### Passo a passo
 
-Clone o repositório:
+1. Clone o repositório:
 
-```bash
-git clone https://github.com/plysakovski/fiap-python-fundamentals.git
-```
+   ```bash
+   git clone https://github.com/plysakovski/fiap-python-fundamentals.git
+   ```
 
-Entre na pasta do projeto:
+2. Acesse a pasta:
 
-```bash
-cd fiap-python-fundamentals
-```
+   ```bash
+   cd fiap-python-fundamentals
+   ```
 
-Execute o exercício desejado:
+3. Execute o exercício desejado. Por exemplo:
 
-```bash
-python caminho/do/exercicio.py
-```
+   ```bash
+   python fundamentos/repeticoes/tabuada.py
+   ```
 
-No Windows, dependendo da instalação, também pode ser usado:
+   No Windows, o comando também pode ser:
 
-```bash
-py caminho/do/exercicio.py
-```
+   ```powershell
+   py fundamentos/repeticoes/tabuada.py
+   ```
+
+Os exercícios são independentes e, em sua maioria, recebem informações pelo terminal. Não é necessário instalar bibliotecas externas.
 
 ## Objetivos de aprendizagem
 
-- Desenvolver o raciocínio lógico e a capacidade de resolver problemas
-- Aprender os fundamentos da programação com Python
-- Praticar a escrita de código claro e organizado
-- Criar uma base sólida para projetos de dados e Inteligência Artificial
-- Registrar a evolução durante a graduação
+- Consolidar lógica de programação e pensamento computacional;
+- compreender os fundamentos e a sintaxe da linguagem Python;
+- transformar enunciados em algoritmos funcionais;
+- praticar entrada, processamento e saída de dados;
+- desenvolver código cada vez mais claro, organizado e sustentável;
+- construir uma base sólida para projetos de dados e Inteligência Artificial.
+
+## Roadmap de aprendizado
+
+- [x] Variáveis, tipos de dados, entrada e saída
+- [x] Formatação de valores
+- [x] Operadores e estruturas condicionais
+- [x] Estruturas de repetição
+- [ ] Coleções: listas, tuplas, conjuntos e dicionários
+- [ ] Funções e modularização
+- [ ] Tratamento de exceções
+- [ ] Programação orientada a objetos
+- [ ] Projetos integradores
+
+Este roadmap acompanha o avanço das aulas e será atualizado continuamente.
 
 ## Autor
 
-Desenvolvido por [Pedro Lysakovski](https://github.com/plysakovski) durante a graduação em Inteligência Artificial na FIAP.
+**Pedro Lysakovski** — Graduando em Inteligência Artificial pela FIAP
 
-## Observação
+[![GitHub](https://img.shields.io/badge/GitHub-plysakovski-181717?style=flat-square&logo=github)](https://github.com/plysakovski)
 
-Este repositório possui finalidade educacional. Os exercícios representam meu processo de aprendizagem e podem ser aprimorados ao longo do curso.
+---
+
+Este repositório tem finalidade educacional e reflete um processo contínuo de aprendizado e aprimoramento.
